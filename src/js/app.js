@@ -1,4 +1,4 @@
-import TaskManager from './TaskManager';
+import ImageLoader from './ImageLoader';
 
-const taskManager = new TaskManager(document.querySelector('.taskmanager'));
-taskManager.addEvents();
+const imageLoader = new ImageLoader(document.querySelector('.imagevalidator'));
+imageLoader.addEvents();

@@ -7,19 +7,19 @@
   <title>Document</title>
 </head>
 <body>
-  <section class='taskmanager'>
-    <div class='searchblock'>
-      <p class='headertext'>Top tasks</p>
-      <input type="text">
+  <section class='imagevalidator'>
+    <div class='formblock'>
+      <p class='label'>Название изображения</p>
+      <input type="text" class='imagename'>
+      <p class='label'>Ссылка</p>
+      <input type="text" class='imagelink'>
+      <p class='label warning hide'>Ссылка не рабочая!</p>
+      <button class='imagebutton'>Добавить</button>
     </div>
-    <div class='pinnedblock'>
-      <p class='headertext'>Pinned</p>
-      <div class='card'>
-        <p class='warning'>No pinned tasks</p>
-      </div>
-    </div>
-    <div class='tasksblock'>
-      <p class='headertext'>All tasks</p>
+    <p class='label'>Галерея</p>
+    <div class='gallery'>
+      <img class='image' src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/The_logo_simpsons_yellow.svg/500px-The_logo_simpsons_yellow.svg.png'>
+      <div class='cross'>X</div>
     </div>
   </section>
 </body>

@@ -1,46 +1,26 @@
-.taskmanager {
+.formblock {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: antiquewhite;
     border: 2px solid lightgray;
     border-radius: 10px;
-    width: 400px;
-    min-zoom: 550px;
-}
-
-.searchblock {
-    align-self: center;
-    background-color: white;
-    border: 2px solid lightgray;
-    border-radius: 10px;
-    width: 350px;
-    min-height: 100px;
-    margin-top: 20px;
-}
-
-.pinnedblock {
-    align-self: center;
-    background-color: white;
-    border: 2px solid lightgray;
-    border-radius: 10px;
-    width: 350px;
-    min-height: 150px;
-    margin-top: 20px;
-}
-
-.tasksblock {
-    align-self: center;
-    background-color: white;
-    border: 2px solid lightgray;
-    border-radius: 10px;
-    width: 350px;
+    width: 600px;
     min-height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-.headertext {
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.label {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
     padding-left: 15px;
@@ -64,37 +44,43 @@ input:focus {
     border: 3px solid goldenrod;
 }
 
-.card {
-    display: flex;
-    justify-content: space-between;
+button {
     width: 90%;
     font-size: 14px;
     box-sizing: border-box;
     border: 2px solid lightgray;
     border-radius: 4px;
+    font-size: 16px;
+    background-color: aquamarine;
+    padding: 8px 6px 8px 20px;
     margin-left: 15px;
-    height: 38px;
-    font-family: Helvetica, sans-serif;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: lightslategray;
+}
+
+.image {
+    width: 150px;
+    border: 2px solid lightgray;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 7px;
 }
 
 .warning {
-    font-size: 16px;
-    color: indianred;
-    margin: 8px 20px 5px 20px;
-}
-
-.text {
-    font-size: 16px;
-    margin: 8px 20px 5px 20px;
-}
-
-.checkbox {
-    width: 20px;
-    height: 20px;
-    margin: 8px 20px 5px 20px;
+    color: purple;
 }
 
 .hide {
     display: none;
+}
+
+.cross {
+    position: relative;
+    color: red;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    height: 20px;
 }
