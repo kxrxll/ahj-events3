@@ -1,0 +1,100 @@
+.taskmanager {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 400px;
+    min-zoom: 550px;
+}
+
+.searchblock {
+    align-self: center;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 100px;
+    margin-top: 20px;
+}
+
+.pinnedblock {
+    align-self: center;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 150px;
+    margin-top: 20px;
+}
+
+.tasksblock {
+    align-self: center;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.headertext {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    padding-left: 15px;
+    color: lightslategray;
+}
+
+input {
+    width: 90%;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 8px 6px 8px 20px;
+    margin-left: 15px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid goldenrod;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin-left: 15px;
+    height: 38px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.warning {
+    font-size: 16px;
+    color: indianred;
+    margin: 8px 20px 5px 20px;
+}
+
+.text {
+    font-size: 16px;
+    margin: 8px 20px 5px 20px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 8px 20px 5px 20px;
+}
+
+.hide {
+    display: none;
+}
